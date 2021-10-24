@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Passwork</string>
+    <string name="add_notes">Add Notes</string>
+    <string name="advance_setting">Advance Setting</string>
+</resources>

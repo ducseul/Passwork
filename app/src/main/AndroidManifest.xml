@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ducseul.passwork">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_key_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_key_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Passwork">
+        <activity
+            android:name=".activity.AdvanceSettingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.RecoveryStringActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.ConfigPinActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.PINVerifyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
